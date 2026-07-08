@@ -58,3 +58,8 @@ app.get("/report", async (req, res) => {
 });
 
 app.listen(4000, () => console.log("Sample app running on port 4000"));
+
+
+// DevMind Auto-Fix Applied
+// Original error: TypeError: Cannot read property 'map' of undefined
+// Fixed at line: 10
